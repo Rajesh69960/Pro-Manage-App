@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.container{
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+}
+.leftContainer{
+    background-color: 
+    #17A2B8 ;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.imageContainer{
+    position: relative;
+    top: -3rem; 
+}
+
+.artImage{
+    position: absolute;
+    left: 1rem;
+    top: 3rem;
+}
+.textAlign{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+.textAlign h1{
+   font-weight: 500;
+   font-size: 28px;
+   padding-top: 0.5rem;
+}
+
+.rightContainer{
+    width: 40%;
+}
+.loginTxt{
+    text-align: center;
+    margin: 4rem 0 2rem 0
+}
+.inputContainer{
+    width: 75%;
+    position: relative;
+    margin: auto;
+}
+.inputD{
+    border: 2px solid #D0D0D0;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    border-radius: 0.6rem;
+    width: 100%;
+}
+.inputD input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.icon{
+    padding-left: 1rem;
+    height: 25px;
+    width: 50px;
+}
+.mailIcon{
+    padding-left: 1rem;
+    height: 22px;
+    width: 50px;
+}
+.eyeIcon{
+   position: absolute;
+   right: 0.5rem;
+   height: 30px;
+}
+
+.loginEmail{
+    padding: 1.4vh;  
+}
+.btnSection{
+   display: flex;
+   flex-direction: column; 
+   align-items: center; 
+}
+.btnSection p{
+    color: #828282;
+}
+.loginBtn{ 
+    margin-inline: auto;
+    width: 75%;
+    padding: 0.5rem;
+    margin-block: 1.5rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color:#17A2B8;
+    color: #FFFFFF;
+}
+.registerBtn{
+    margin-inline: auto;
+    width: 75%;
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 16px;
+    border: 2px solid #17A2B8;
+    border-radius: 20px;
+    background-color:#FFFFFF;
+    color: #17A2B8;
+}
+.error{
+    color: #DB371F;
+    font-size: 0.8rem;
+    position: absolute;
+    left: 1rem
+
+}
+@media (max-width:870px){
+    .container{
+        flex-direction: column;
+    }
+    .leftContainer{
+        width: 100%;
+        padding: 4rem 0 2rem 0;
+    }
+    .rightContainer{
+        width: 100%;
+        padding-bottom: 1rem;
+        margin-top: -2rem;
+    }
+}

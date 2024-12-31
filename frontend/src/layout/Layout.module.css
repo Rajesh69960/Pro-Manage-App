@@ -1,0 +1,92 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.sideBarContainer{
+    width: 20vw; 
+    z-index: 1;   
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #EDF5FE; 
+}
+.proSection{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 1.2rem 0 0 2rem
+}
+
+.boardSection:hover,.analyticsSection:hover,.settingSection:hover{
+    background-color:#4391ED1A ;
+}
+.boardSection, .analyticsSection, .settingSection{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding-left: 2rem;
+    padding-block: 0.4rem;
+    margin-block: 1.6rem;
+    width: 100%;
+}
+
+.logoutSection{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 2rem;
+    padding-block: 0.4rem;
+    position: absolute;
+    bottom: 3rem;
+    color: #CF3636;
+  
+}
+.logoutLogo{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background:  rgba(164, 163, 163, 0.5);
+}
+.modalContainer{
+    position: fixed;
+    overflow: unset;
+    width: 30vw;
+    padding: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    text-align: center;
+    border-radius: 1rem;
+}
+.logoutBtn{
+    padding: 1.4vh;
+    text-align: center;
+    margin-top: 1rem;
+    width: 100%;
+    border: 1px solid rgba(105, 101, 101, 0.5);
+    border-radius: 10px;
+    background-color:#17A2B8;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.cancelBtn{
+    padding: 1.4vh;
+    margin-top: 1rem;
+    width: 100%;
+    border: 1px solid #CF3636;
+    border-radius: 10px;
+    background-color:#FFFFFF;
+    color: 
+    #CF3636;
+    font-weight: 600;
+}

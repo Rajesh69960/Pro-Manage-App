@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.setContext{
+    display: flex;
+  
+}
+.settingContainer{
+    font-size: 22px;
+    margin-left: 2rem;
+    margin-top: 2.2rem;
+}
+.inputContainer{
+    margin-top: 2.5rem;
+    width: 26rem; 
+    position: relative;
+}
+.inputD{
+    border: 2px solid #D0D0D0;
+    z-index: -1;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 0.6rem;
+    align-items: center;
+    width: 100%;
+}
+.inputD input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.icon{
+    padding-left: 1rem;
+    height: 25px;
+    width: 50px;
+}
+.mailIcon{
+    padding-left: 1rem;
+    height: 22px;
+    width: 50px;
+}
+.eyeIcon{
+   position: absolute;
+   right: 0.5rem;
+}
+
+.loginEmail{
+    padding: 1.4vh;  
+}
+
+.updateBtn{
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color:#17A2B8;
+    color: #FFFFFF;
+}
+.eyeIcon{
+    position: absolute;
+    right: 0.5rem;
+    height: 30px;
+ }
+ .error{
+    margin-top: -2vh;
+    margin-bottom: -1vh;
+    margin-left: 1.5vw;
+    color: #DB371F;
+    font-size: .8vw;
+   }
+ 
