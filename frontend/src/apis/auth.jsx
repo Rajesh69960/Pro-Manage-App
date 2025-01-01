@@ -1,6 +1,5 @@
 import axios from "axios"
-// import.meta.env.VITE_BACKEND_URL
-const backendUrl = `http://localhost:5000`
+const backendUrl = import.meta.env.VITE_BACKEND_URL
 
 export const userLogin = async (email, password) => {
   try {
